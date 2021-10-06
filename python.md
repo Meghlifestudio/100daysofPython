@@ -64,15 +64,9 @@ length1= len(user_name) (number should be added at the end of variable)
 # Day 1 Project Name code generator
 
 '''
-#1. Create a greeting for your program.
 print('welcome to brand name generator.')
-
-#2. Ask the user for the city that they grew up in.
 city_name=input("which city you were grown up?\n")
-
-#3. Ask the user for the name of a pet.
 pet_name= input('what is your pet name?\n')
-#4. Combine the name of their city and pet and show them their band name.
 band_name=("city_name" + "pet_name ")
 print("Your brand name could be " + city_name + " " + pet_name )
 '''
