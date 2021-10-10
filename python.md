@@ -14,7 +14,7 @@ print("Hello world!\n Hello world")
 
 output
 
-'''
+''' Python
 Hello world!
 Helloworld!
 '''
@@ -181,3 +181,17 @@ print(int(score))
 #solution 9
 ```
 
+# Project TIP calculator (Used Round and other function to format two two decimal number, F function)
+
+``` Python
+**input("welcome to tip calculator")
+bill=float(input("what is your bill amount? $ "))
+Tip=int(input("How much you want to  tip? 10, 13, or 16? "))
+final_bill=Tip/100 * bill +bill
+each_bill= (final_bill/7)
+Bill=round(each_bill,2)
+**Bill= "{:, 2f},format",(each_bill)**
+print(f"Your final bill is {Bill} dollar")
+```
+
+         
