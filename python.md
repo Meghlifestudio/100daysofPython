@@ -62,7 +62,11 @@ Later we can refer this by calling name: print (name)
 ## Excercise DAY 1 Variable
 tips add space, add number
 user_name (add space in python we use underscore
-length1= len(user_name) (number should be added at the end of variable)
+length1= len(user_name) (number should be added at
+
+
+
+the end of variable)
 
 # Day 1 Project Name code generator
 
@@ -195,3 +199,126 @@ print(f"Your final bill is {Bill} dollar")
 ```
 
          
+#If/elif/else and multiple if statement
+
+## in below case only one condition will run
+if condition1:
+do a
+elif condition 2:
+do b
+else:
+do c
+
+## in below case all if condition will run
+
+if condition 1:
+do a
+if condition 2:
+do b
+if condition 3
+do c:
+
+
+``` Python
+
+# 🚨 Don't change the code below 👇
+print("Welcome to Python Pizza Deliveries!")
+size = input("What size pizza do you want? S, M, or L ")
+bill=0
+if size=="S":
+  bill +=15
+elif size=="M":
+  bill +=20
+else:
+  bill +=25
+
+add_pepperoni = input("Do you want pepperoni? Y or N ")
+if add_pepperoni=="Y":
+ if size=="S":
+  bill+=2
+else:
+  bill +=3
+
+extra_cheese = input("Do you want extra cheese? Y or N ")
+if extra_cheese=="Y":
+  bill+=1
+
+
+print(f"Your final bill is ${bill}" )
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+```
+
+
+#LOGIVAL OPERATORS, Combining" if" condiition in one line
+
+## AND operator
+
+both condiition is true then entire line is true and  give output true if any one of the if false it comes false.
+
+Example: a=10
+if a>8 and a<12
+true
+
+## Or operator
+if any one of the condiition is true the result is true, 
+if both th econdition is false then result is false
+
+## Not condition
+
+it turns the condition opposite
+ example: if its false it converts to true and vice a versa
+ a=10
+ Not a>10
+ 
+it will be false but with not function it will be true
+
+ 
+#  Lower function and Count function
+Conver text into lower case
+Example
+"Angel",lower()
+angel
+Counts number os letter in text
+
+e="Angel", count("e")
+1 
+
+
+##Example lower case, Count, logic operators, string and integer
+
+```Python
+# 🚨 Don't change the code below 👇
+print("Welcome to the Love Calculator!")
+name1 = input("What is your name? \n")
+
+name2 = input("What is their name? \n")
+lower_case_names=(name1+name2).lower()
+print=lower_case_names
+t=lower_case_names.count("t")
+r=lower_case_names.count("r")
+u=lower_case_names.count ("u")
+e=lower_case_names.count ("e")
+true= t + r + u + e
+
+l=lower_case_names.count ("l")
+o=lower_case_names.count ("o")
+v=lower_case_names.count ("v")
+e=lower_case_names.count ("e")
+love= l + o + v + e
+love_score= int(str(true)+ str(love))
+print(love_score)
+
+if (love_score<10) or (love_score>90):
+  print(f"Your score is{love_score}, you go together like coke and memtos " )
+elif (love_score>=40) and (love_score<=50):
+   print(f"Your score is {love_score} " )
+else:
+  print(f"Your score is {love_score}" )
+
+```
+
+
+
